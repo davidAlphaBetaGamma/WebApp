@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.context.WebApplicationContext;
 
 @Service
-@Scope(value = "request") //prototype, singleton, request
-//@Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
+//@Scope(value = "session") //prototype, singleton, request
+@Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class Session {
 
 	private static final Logger log = LoggerFactory.getLogger(Session.class);
