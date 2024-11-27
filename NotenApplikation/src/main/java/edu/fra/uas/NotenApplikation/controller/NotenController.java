@@ -21,6 +21,10 @@ public class NotenController {
 
     @PostMapping("/add")
     public String addNote(@RequestParam double note) {
+<<<<<<< HEAD
+=======
+        // TODO: process POST request
+>>>>>>> 8d6827413fae28ce2456fcecdf58e78d468a9241
         notenService.addNote(note);
         return "Note hinzugefügt: " + note;
     }
