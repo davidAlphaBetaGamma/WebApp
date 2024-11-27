@@ -6,20 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "SingletonBeanApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.ManyObjectPerBean.SingletonBeanApplication",
-            "projectName": ""
-        },
-        {
-            "type": "java",
-            "name": "NotenApplication",
-            "request": "launch",
-            "mainClass": "edu.fra.uas.NotenApplikation.NotenApplication",
-            "projectName": ""
-        },
-        {
-            "type": "java",
             "name": "NotendurchschnittApplication",
             "request": "launch",
             "mainClass": "edu.fra.uas.notendurchschnitt.NotendurchschnittApplication",
