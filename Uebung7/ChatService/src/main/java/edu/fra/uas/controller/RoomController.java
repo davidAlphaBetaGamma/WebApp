@@ -35,7 +35,7 @@ public class RoomController {
     private RoomService roomService;
 
     @GetMapping(value = "/rooms",
-                produces = MediaType.APPLICATION_JSON_VALUE)
+                produces = MediaType.APPLICATION_JSON_VALUE) 
     @ResponseBody
     public ResponseEntity<List<RoomDTO>> getAll() {
         log.info("Get all rooms");
