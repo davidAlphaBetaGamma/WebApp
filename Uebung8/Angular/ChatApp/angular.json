@@ -85,12 +85,16 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "proxyConfig": "src/proxy.conf.json"
+          },
           "configurations": {
             "production": {
               "buildTarget": "ChatApp:build:production"
             },
             "development": {
-              "buildTarget": "ChatApp:build:development"
+              "buildTarget": "ChatApp:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
